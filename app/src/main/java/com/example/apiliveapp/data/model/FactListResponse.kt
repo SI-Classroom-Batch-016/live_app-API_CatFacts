@@ -1,6 +1,7 @@
 package com.example.apiliveapp.data.model
 
 data class FactListResponse (
-    val currentPage : Int,
-    val data : List<Fact>
+    val data : List<Fact>,
+    val last_page : Int,
+    val current_page : Int,
 )
